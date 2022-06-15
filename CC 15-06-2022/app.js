@@ -11,3 +11,8 @@
 //["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] --> "found the needle at position 5" 
 
 
+function findNeedle(haystack) {
+    // your code here
+    let foundIt = haystack.indexOf('needle')
+    return `found the needle at position ${foundIt}`
+  }
