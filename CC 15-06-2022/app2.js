@@ -16,3 +16,14 @@
 //Output: "even"
 
 
+function oddOrEven(array) {
+    //enter code here
+   let result = array.reduce((acc,c) => acc + c,0);
+   if(result === 0){
+     return 'even'
+   }else if(result % 2 === 0){
+     return 'even'
+   }else{
+     return 'odd'
+   }
+ }
